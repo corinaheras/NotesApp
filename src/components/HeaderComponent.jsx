@@ -7,12 +7,12 @@ function HeaderComponent() {
         <nav>
             <ul className="nav-list">
                 <li>
-                    <Link to="/" classname="link">
+                    <Link to="/" className="link">
                     Home
                     </Link>
                 </li>
                 <li>
-                    <Link to="/notes" classname="link">
+                    <Link to="/notes" className="link">
                     Notes
                     </Link>
                 </li>

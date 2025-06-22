@@ -2,6 +2,8 @@ import HeaderComponent from "../components/HeaderComponent"
 
 
 function NotesPage() {
+    
+    const {notes} = useContext(NoteContext);
     return (
        <>
         <HeaderComponent></HeaderComponent>
