@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function HeaderComponent() {
     return (
        <header className="header">
-        <h2 class="title">Notes App</h2>
+        <h1 class="title">Notes App</h1>
         <nav>
             <ul className="nav-list">
                 <li>
@@ -17,7 +17,7 @@ function HeaderComponent() {
                     </Link>
                 </li>
             </ul>
-        </nav>
+        </nav>        
        </header>
     )
 }
