@@ -7,15 +7,16 @@
   justify-content: space-between;
   align-items: center;
   background-color: #1c1b1b;
-  padding: 10px 24px;
+  padding: 10px 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   position: sticky;
   top: 0;
   z-index: 1000;
+  height: 60px;
 }
 
 .title {
-    color: rgb(255, 188, 53);
+  color: rgb(255, 188, 53);
   font-family: "Poppins";
   font-size: 2rem;
   font-weight: 600;

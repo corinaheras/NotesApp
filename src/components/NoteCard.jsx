@@ -1,11 +1,13 @@
-function NoteCard({ note }) {
-    return (
-    <article className="note-card">
-        <input type="texxt " className="card-title" value={note.title}></input>
-        <input type="checkbox " checked={note.marked}></input>
 
-    </article>
+
+
+function NoteCard({note}) {
+    return (
+        <article className="note-card">
+           <input type="text" className="car-title" value={note.title}/>
+           <input type="checkbox" checked={note.marked} />
+        </article>
     )
 }
 
-export default NoteCard;
+export default NoteCard; 
